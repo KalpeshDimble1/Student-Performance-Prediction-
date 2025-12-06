@@ -20,7 +20,4 @@ To address these questions, we applied:
 - Statistical Hypothesis Testing
 - Machine Learning (Decision Tree Classifier)
 
----
-
-## 📂 Repository Structure
 
