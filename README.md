@@ -5,19 +5,27 @@
 
 ---
 
-## 📖 Project Overview
+## Project Overview
+This project analyses the impact of Virtual Learning Environment (VLE) engagement on student performance using the Open University Learning Analytics Dataset (OULAD).
 
-This repository contains a full data analytics workflow focused on how the **Virtual Learning Environment (VLE)** impacts student academic outcomes at **The Open University (UK)**.
+## Objectives
+- Examine whether VLE engagement improves student grades
+- Predict student outcomes using machine learning
+- Identify key factors influencing academic success
 
-The project answers two key research questions:
-
-1. **Does student interaction with the VLE improve grades?**
-2. **Can we predict student performance using VLE activity and demographics?**
-
-To address these questions, we applied:
+## Methods Used
+- Data Cleaning & Feature Engineering
 - Exploratory Data Analysis (EDA)
-- Feature Engineering
-- Statistical Hypothesis Testing
-- Machine Learning (Decision Tree Classifier)
+- Hypothesis Testing (Welch’s t-test)
+- Decision Tree Classification
 
+## Tools & Technologies
+- Python
+- Pandas, NumPy
+- Scikit-learn
+- Matplotlib / Seaborn
 
+## Key Findings
+- Higher VLE engagement is strongly associated with better academic performance
+- Decision Tree achieved ~85% prediction accuracy
+- Engagement (sum_click) is the most important predictor
